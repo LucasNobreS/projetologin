@@ -15,9 +15,19 @@
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>seja bem-vindo! faça login para acessar sua conta  e poder fazer as configurações nesse ambiente</p>
+                <p>seja bem-vindo! faça login para acessar sua conta  e poder fazer as configurações nesse ambiente <br><br></p>
                 <form action="login.php" method="post">
-                    
+                    <div class="campo">
+                        <label for="ilogin">Login</label>
+                        <input type="email" name="login" id="ilogin" placeholder="Digite seu email" required autocomplete="email">
+                        
+                    </div>
+                    <div class="campo">
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required autocomplete="current-password">
+                    </div>
+                    <input type="submit" value="entrar">
+                    <a href="esquecisenha.html">Esqueci minha senha</a>
                 </form>
             </div>
         </section>

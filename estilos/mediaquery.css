@@ -34,4 +34,10 @@
     body{
         background-image: linear-gradient(to top,#D9D0BF, #BF9B6F, #403227);
     }
+    div#formulario > p{
+    font-size: 1.2em;
+    }
+    div#formulario > h1{
+        font-size: 2em;
+    }
 }
